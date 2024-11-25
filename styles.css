@@ -540,10 +540,16 @@ body {
     }
 
     /* Adjust section margins for mobile */
-    .section, .hero, .footer {
+    .hero, .footer {
         margin-left: 0;
         width: 100%;
         margin-bottom: 80px; /* Reduced from 100px */
+        padding: 40px 20px;
+    }
+
+    .section{
+        margin-left: 0;
+        width: 100%;
         padding: 40px 20px;
     }
 
